@@ -1,0 +1,23 @@
+.introduction {
+  min-height: 110vh;
+  background-image: url("/Abraham.svg"); /* Replace with the actual path to your image */
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  background-size: 40%;
+  object-fit: cover;
+}
+
+.highlighterContainer{
+  min-height: 90vh;
+}
+
+.workedWithMarquee {
+  min-height: 80px;
+  max-height: 150px;
+  background: rgba(24, 22, 38, 0.35);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.2px);
+  -webkit-backdrop-filter: blur(1.2px);
+}
+

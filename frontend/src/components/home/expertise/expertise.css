@@ -1,0 +1,30 @@
+.expertiseContainer {
+  min-height: 200vh;
+}
+
+.expertiseCard {
+  max-height: 330px;
+  min-height: 330px;
+  min-width: 340px;
+  max-width: 350px;
+  border-radius: 10px;
+  background: var(--S500-Base);
+  border: 1px solid var(--S400);
+}
+
+
+.expertiseCardContainer {
+  position: relative;
+  min-height: 400px;
+}
+
+.expertiseIconBox {
+  position: absolute;
+  top: -25px;
+  left: 15px;
+  min-height: 90px;
+  min-width: 90px;
+  border-radius: 10px;
+  background-color: var(--P400);
+  box-shadow: 0 0 10px 3px rgba(144, 120, 203, 0.3);
+}

@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  min-height: 100vh;
+  background-color: black;
+  font-family: "Urbanist", sans-serif;
+}
+
+:root {
+  /* Primary Colors */
+  --P900: #030209;
+  --P800: #04030c;
+  --P700: #070512;
+  --P600: #090618;
+  --P500-Base: #0b081e;
+  --P400: #231e44;
+  --P300: #3b3369;
+  --P200: #52498f;
+  --P100: #6a5eb4;
+
+  /* Secondary Colors */
+  --S900: #09080e;
+  --S800: #0c0b13;
+  --S700: #12111d;
+  --S600: #181626;
+  --S500-Base: #1e1c30;
+  --S400: #3A384F;
+  --S300: #56546e;
+  --S200: #73708e;
+  --S100: #9d9abc;
+
+  /* Font Colors */
+  --F900: #8e8e8e;
+  --F800: #9d9d9d;
+  --F700: #bbbbbb;
+  --F600: #d8d8d8;
+  --F500-Base: #f6f6f6;
+  --F400: #f8f8f8;
+  --F300: #fafafa;
+  --F200: #fbfbfb;
+  --F100: #ffffff;
+
+  --A500-Base: #8e54e9;
+  --A600: #7344be;
+  --A02: #775e9e;
+  --A200: #ddccf8;
+  --G01: #9a74d4;
+  --G02: #d0beec;
+  --G03: #4776e6;
+  --G04: #8e54e9;
+  --G05: #413981;
+  --G06: #2f20c8;
+}
+
+.banner {
+  background-color: var(--S600);
+  height: 2em;
+}
+
+.highlight {
+  font-size: 90px;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 600;
+  color: var(--F500-Base);
+}
+
+/* Introduction CSS starts here */
+.highlightGradient {
+  background: #1a49f1;
+  background: linear-gradient(to right, #1a49f1 0%, #a451ef 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.md-highlight {
+  font-size: 60px;
+  font-weight: 600;
+  color: var(--F500-Base);
+  text-transform: capitalize;
+}
+
+.sm-highlight {
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  color: var(--F500-Base);
+  text-transform: capitalize;
+}
+
+
+.subHead {
+  font-size: 23px;
+  color: var(--A200);
+  letter-spacing: 0.15em;
+  line-height: 118%;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/* used in pricing card */
+.xl-normalText{
+  color: #ffffff;
+  font-size: 22px;
+  line-height: 0.153;
+  font-weight: normal;
+}
+
+
+.lg-normalText {
+  font-size: 18px;
+  line-height: 153%;
+  font-weight: normal;
+  color: var(--F600);
+}
+
+.normalText {
+  font-size: 16px;
+  line-height: 153%;
+  font-weight: normal;
+  color: var(--F600);
+}
+
+.text-gray-cust{
+  color: var(--F800);
+}
+
+.text-purple-cust{
+  color: var(--A500-Base);
+}
+
+/* utility CSS starts here */
+
+.shinyBorder {
+  border: 2px solid var(--S400);
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.glowBorder {
+  box-shadow: 0 0 10px 3px rgba(144, 120, 203, 0.3);
+  transition: 0.3s all ease;
+}
+
+.glowBorder:hover {
+  /* box-shadow: 0 0 20px 2px rgba(197, 178, 245, 0.5); */
+  box-shadow: 0 0 15px 5px rgba(144, 120, 203, 0.5);
+}
+
+.bouncyCard {
+  transition: transform 0.3s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.bouncyCard:hover {
+  transform: translateY(-30px);
+}

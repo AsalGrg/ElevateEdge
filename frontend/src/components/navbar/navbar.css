@@ -1,0 +1,17 @@
+.navbar {
+    background-color: var(--S500-Base);
+    mix-blend-mode: normal;
+    border-radius: 15px;
+  }
+  
+  .navlinks {
+    font-family: "Urbanist", sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    color: var(--F500-Base);
+  }
+  
+  .navlinks > p:hover {
+    color: var(--A500-Base);
+  }
+  

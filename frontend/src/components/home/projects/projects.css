@@ -1,0 +1,23 @@
+.projectContainer{
+    min-height: 130vh;
+}
+
+
+.projectCard {
+  min-height: 400px;
+  background: rgb(11, 8, 29);
+  background: linear-gradient(
+    180deg,
+    rgba(11, 8, 29, 1) 0%,
+    rgba(62, 35, 105, 1) 14%,
+    rgba(11, 8, 29, 1) 96%
+  );
+  width: 490px;
+
+  position: relative;
+}
+
+.projectImgContainer{
+    position: absolute;
+    top: -290px;
+}
