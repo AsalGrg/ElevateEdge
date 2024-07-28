@@ -3,8 +3,8 @@
 }
 
 .pricingCard {
-  height: 640px;
-  width: 380px;
+  height: 680px;
+  min-width: 410px;
   background-color: var(--S500-Base);
   border: 1.4px solid var(--S400);
   border-radius: 12px;

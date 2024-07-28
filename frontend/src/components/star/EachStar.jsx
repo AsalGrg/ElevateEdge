@@ -6,7 +6,7 @@ const EachStar = ({ starType }) => {
   let className = "star " + starType;
 
   return (
-    <div className="bg-primary">
+    <div className="">
       <h1>
         <CiStar
           className={className}

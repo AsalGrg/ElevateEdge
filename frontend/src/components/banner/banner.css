@@ -1,0 +1,12 @@
+.banner {
+    background-color: var(--S600);
+    height: 4em;
+    border-bottom: 1px solid var(--S400);
+  }
+  
+.bannerPill{
+    background-color: var(--S500-Base);
+    border-radius: 30px;
+    min-height: 35px;
+    min-width: 120px;
+}

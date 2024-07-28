@@ -2,7 +2,7 @@ import React from "react";
 
 const PricingHighlight = () => {
   return (
-    <div className="d-flex flex-column gap-5 justify-content-center align-items-center">
+    <div className="d-flex flex-column gap-5 justify-content-center align-items-center mb-5">
       <h1 className="subHead text-center">Pricing</h1>
 
       <div className="w-75 text-center px-5">

@@ -1,0 +1,17 @@
+
+.slick-list{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.customArrowBtn{
+    border-radius: 50%;
+    border: 2px solid var(--A500-Base);
+    min-height: 50px;
+    min-width: 50px;
+    color: var(--A500-Base);
+    font-weight: 900;
+    font-size: x-large;
+}
+

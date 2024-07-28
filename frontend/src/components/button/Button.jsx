@@ -35,7 +35,7 @@ const Button = ({ buttonContent, hasArrow, size, type, hasGlow, isFullWidth }) =
   const [isHovered, setisHovered] = useState(false);
 
   const buttonClass = type === "transparentButton" ? null : "button";
-  const hasGlowEffect = hasGlow? 'buttonGlow': null
+  const hasGlowEffect = hasGlow? 'glowBorder': null
   const isBtnFullWidth = isFullWidth? 'w-100': null
   return (
     <button

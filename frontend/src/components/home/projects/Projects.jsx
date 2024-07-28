@@ -6,7 +6,7 @@ import './projects.css'
 
 const Projects = () => {
   return (
-    <section className="container px-3 d-flex flex-column justify-content-between projectContainer">
+    <section className="container px-3 d-flex flex-column justify-content-between projectContainer my-5 py-5">
       <ProjectHighlight />
       <AllProjects/>
     </section>

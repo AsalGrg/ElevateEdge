@@ -5,6 +5,9 @@ import Introduction from "../../components/home/introduction/Introduction";
 import Expertise from "../../components/home/expertise/Expertise";
 import Projects from "../../components/home/projects/Projects";
 import Pricing from "../../components/home/pricing/Pricing";
+import Team from "../../components/home/team/Team";
+import Testimonial from "../../components/home/testimonial/Testimonial";
+import Footer from "../../components/footer/Footer";
 
 const Home = () => {
   return (
@@ -13,8 +16,11 @@ const Home = () => {
       <Navbar />
       <Introduction />
       <Expertise />
-      <Projects/>
-      <Pricing/>
+      <Projects />
+      <Pricing />
+      <Team />
+      <Testimonial/>
+      <Footer/>
     </main>
   );
 };

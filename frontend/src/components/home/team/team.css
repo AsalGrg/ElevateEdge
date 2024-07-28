@@ -1,0 +1,28 @@
+.teamContainer{
+  min-height: 110vh;
+}
+
+.member-card {
+  width: 300px;
+}
+
+.member-card > img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.member-card:nth-child(odd) {
+  height: 350px;
+}
+
+.member-card:nth-child(even) {
+  height: 400px;
+}
+
+.memberName{
+  color: var(--F500-Base);
+  font-weight: 500;
+  word-spacing: 1.3px;
+}

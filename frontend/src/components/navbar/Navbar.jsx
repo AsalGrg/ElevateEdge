@@ -15,11 +15,11 @@ const Navbar = () => {
         >
           <div className="d-flex justify-content-evenly w-100">
 
-            <div className="pt-3">
-                <img src="/NavbarLogo.svg"></img>
+            <div className="">
+                <img src="/logo.svg"></img>
             </div>
 
-            <div className="d-flex justify-content-between navlinks w-50 align-items-center pt-3">
+            <div className="d-flex justify-content-between navlinks w-50 align-items-center">
                 <p className="cursor-pointer">Home</p>
                 <p className="cursor-pointer">About Us</p>
                 <p className="cursor-pointer">Services</p>
@@ -27,7 +27,7 @@ const Navbar = () => {
                 <p className="cursor-pointer">Contact Us</p>
             </div>
 
-            <div className="pt-2">
+            <div className="">
                 <PrimaryButton buttonContent={`Let's Talk`} size={'sm'} hasArrow={true} hasGlow={true}/>
             </div>
 

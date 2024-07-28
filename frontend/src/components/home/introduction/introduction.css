@@ -1,14 +1,14 @@
 .introduction {
-  min-height: 110vh;
+  min-height: 120vh;
   background-image: url("/Abraham.svg"); /* Replace with the actual path to your image */
   background-position: bottom left;
   background-repeat: no-repeat;
-  background-size: 40%;
-  object-fit: cover;
+  background-size: 45%;
+  object-fit: contain;
 }
 
 .highlighterContainer{
-  min-height: 90vh;
+  min-height: 85vh;
 }
 
 .workedWithMarquee {

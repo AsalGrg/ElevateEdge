@@ -1,0 +1,28 @@
+.footer{
+    min-height: 70vh;
+}
+
+.footer-first-section{
+    min-height: 55vh;
+    border-top: 1px solid var(--S400);
+    border-bottom: 1px solid var(--S400);
+}
+
+.mini-highlight{
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    color: var(--F500-Base);
+    text-transform: uppercase;
+}
+
+.emailInput{
+    border: 2px solid var(--S400) ;
+    background-color: transparent;
+    border-radius: 10px;
+    color: var(--F800);
+}
+
+.emailInput::placeholder{
+    color: var(--F800);
+}

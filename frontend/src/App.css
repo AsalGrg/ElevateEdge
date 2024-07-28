@@ -2,7 +2,7 @@
 
 body {
   min-height: 100vh;
-  background-color: black;
+  background-color: var(--P500-Base);
   font-family: "Urbanist", sans-serif;
 }
 
@@ -52,11 +52,6 @@ body {
   --G06: #2f20c8;
 }
 
-.banner {
-  background-color: var(--S600);
-  height: 2em;
-}
-
 .highlight {
   font-size: 90px;
   font-family: "Urbanist", sans-serif;
@@ -88,6 +83,14 @@ body {
 }
 
 
+.xs-highlight{
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    color: var(--F500-Base);
+    text-transform: capitalize;
+}
+
 .subHead {
   font-size: 23px;
   color: var(--A200);
@@ -109,7 +112,8 @@ body {
 .lg-normalText {
   font-size: 18px;
   line-height: 153%;
-  font-weight: normal;
+  /* font-weight: 500; */
+  /* letter-spacing: 1.3px; */
   color: var(--F600);
 }
 
@@ -139,13 +143,13 @@ body {
 }
 
 .glowBorder {
-  box-shadow: 0 0 10px 3px rgba(144, 120, 203, 0.3);
+  box-shadow: 0 0 5px 2px rgba(144, 120, 203, 0.2); 
   transition: 0.3s all ease;
 }
 
 .glowBorder:hover {
   /* box-shadow: 0 0 20px 2px rgba(197, 178, 245, 0.5); */
-  box-shadow: 0 0 15px 5px rgba(144, 120, 203, 0.5);
+  box-shadow: 0 0 10px 3px rgba(144, 120, 203, 0.3);
 }
 
 .bouncyCard {

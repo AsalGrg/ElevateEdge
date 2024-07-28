@@ -1,0 +1,13 @@
+.testimonialContainer {
+  min-height: 120vh;
+}
+
+.testimonialCard {
+  min-height: 300px;
+  width: 500px;
+  border-radius: 20px;
+  background-color: var(--S500-Base);
+  margin: 0 0px;
+  overflow: "hidden";
+  /* padding: 2rem 0; */
+}
